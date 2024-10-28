@@ -1,0 +1,73 @@
+body {
+    background-color: #d5e3f0;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+.product-details {
+    margin-top: 10px;
+    flex-grow: 1;
+    /* Ensures the details section takes the available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Aligns the delete button at the bottom */
+}
+
+.description {
+    margin-left: 10px;
+    /* Adds left margin for description */
+}
+
+.price {
+    margin-left: 10px;
+    /* Adds left margin for price */
+    margin-bottom: 10px;
+    /* Adds margin before the delete button */
+}
+
+.delete-btn {
+    align-self: center;
+    /* Centers the button horizontally */
+    margin-top: auto;
+    /* Pushes the delete button to the bottom */
+    width: 50%;
+    /* Makes the button full width */
+}
+.btn-primary {
+    margin-bottom: 20px;
+}
+
+.img-product {
+    width: 500px;
+}
+
+.custom-sidebar {
+    background: linear-gradient(to bottom, #79a8d7, #d5e3f0);
+    /* Light blue gradient */
+}
+
+.custom-sidebar .position-sticky {
+    position: sticky;
+    top: 80px;
+    z-index: 1000;
+    /* Ensures it stays on top of other elements */
+}
+
+.sidebar-heading {
+    color: blue;
+}
+
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(218, 96, 15);
+    margin-left: 0;
+}
