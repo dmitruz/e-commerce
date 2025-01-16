@@ -87,7 +87,7 @@ $cart_count = isset($_SESSION['cart']) ? array_sum(array_column($_SESSION['cart'
         color: white;
         text-align: center;
         padding: 10px;
-        
+        display: none;
         z-index: 9999;
     }
     .cookie-consent-modal p {
